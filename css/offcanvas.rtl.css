@@ -1,0 +1,106 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+
+a:hover {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.page-link{
+      color: #9699ab;
+}
+.page-link:hover{
+    color: #A00B2B;
+}
+.nav-underline .nav-link:hover {
+  color: #A00B2B;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-rubyred { background-color: #A00B2B; }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+.bg-submit {
+    background: #5a5a5a;
+    padding: 5px 20px 5px 20px;
+}
+
+.bg-submit:hover {
+    background: #a00b2b;
+}
+.list-group-item:hover {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+a.list-group-item.list-group-item-action.active:hover {
+    padding-right: 20px;
+}
+a.list-group-item.list-group-item-action:hover {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding-right  :10px;
+}
+.form-control-sm {
+    font-size: 12px;
+}
+.input-group-text{
+    padding: unset;
+    background-color: unset;
+    border: unset;
+    align-items: unset;
+}
+
+.shadow-sm {
+    box-shadow: 0 0 30px -10px #00000014 !important;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #a00b2b21;
+    outline: 0;
+    box-shadow: 0px 0 10px 0rem #a00b2b6b;
+}
+.page-link:focus {
+    box-shadow: 0px 0 10px 0rem #a00b2b6b;
+}
+.badge {
+    padding: 5px;
+    width: 20px;
+}
